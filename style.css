@@ -1,0 +1,13 @@
+#box_1 {
+    position: static;
+    width: 1000px;
+    height: max-content;
+    background-color: rgb(238, 255, 0);
+    
+}
+img{
+    position: relative;
+    flex: content;
+    height: 800px;
+    width: 500px;
+}
