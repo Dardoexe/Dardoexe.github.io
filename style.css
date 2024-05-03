@@ -6,6 +6,7 @@ header{
     color: aliceblue;
     text-align: center;
     height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main{
     width: 100%;
@@ -88,19 +89,21 @@ p {
     top: 30px;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    left: 90px;
 
 }
 .titulos_listas{
     display: flex;
     position: relative;
-    padding-right: 80px;
+    left: 90px;
+
 
 }
 h5{
     color: aliceblue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 700px;
 }
 footer{
     background-color: black;
