@@ -110,13 +110,15 @@ p {
 
 }
 h5{
-    color: aliceblue;
+    color:black;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 footer{
-    background-color: black;
+    background-image: url(publico.png) ;
+    background-size:contain;
+    background-position:bottom;
     position: relative;
     top: 550px;
     right:20px;
