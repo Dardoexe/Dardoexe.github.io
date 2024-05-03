@@ -53,8 +53,9 @@ header{
 }
 
 #titulo_cont_centr{
+    
     position: relative;
-    font-size: 20px;
+    font-size: 23px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     left:20px;
     top:20px;
@@ -70,7 +71,7 @@ p {
     width: 500px;
     height: 150px;
     position: relative;
-    font-size: 15px;
+    font-size: 17px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:2%;
     
@@ -89,13 +90,17 @@ p {
     top: 30px;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: 90px;
+    left: 70px;
 
 }
 .titulos_listas{
-    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
     position: relative;
     left: 90px;
+    width: fit-content;
 
 
 }
@@ -103,7 +108,7 @@ h5{
     color: aliceblue;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: 700px;
+    
 }
 footer{
     background-color: black;
