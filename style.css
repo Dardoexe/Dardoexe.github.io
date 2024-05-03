@@ -1,49 +1,104 @@
 *{
     margin: 0;
 }
-#img_principal img{
+/*body{
+    background-color: darkgoldenrod;
+}
+/*#contenedor_izq img{
+    background-color: aqua;
     height: 500px;
     width: 300px;
     border-radius: 15%;
-    position: absolute;
-    
-    
+    position: absolute; 
+}*/
+.main{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background-color: black;
+}
+.contenedor{
+   
+   width: 100%;
+   height: 550px;
 }
 
-#header{
-    background-color: black;
+#contenedor_izq{
+    background-color:rgb(202, 162, 162);
+
     
 }
+#contenedor_izq img{
+    position: absolute;
+    height: 550px;
+    width: fit-content;
+    align-items: center;
+}
+#contenedor_central{
+    background-color: aqua;
+
+}
+#contenedor_der{
+    background-color: chartreuse;
+}
+/*
 p {
-    
-    width: 800px;
+    width: 600px;
     height: 200px;
     background-color: rgb(238, 255, 0);
     position: relative;
-    left: 800px;
-    top: 700px;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    left: 360px;
+    top: 10px;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:1%;
+    border-radius: 10%;
+    border-bottom-left-radius: 10%;
    
 }
 
-#logos{
+#logos {
     height: 50px;
     width: 50px;
     position: relative;
-    justify-content: center;
     left: 600px;
     padding: 10px;
 }
 #titulo{
     position: relative;
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    left:500px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left:350px;
+    top:20px;
 }
-#argon_letras{
+#argon_letras img{
     position: relative;
-    width: 50px;
-    height: 20px;
-    left: 900px;
+    width: 200px;
+    height: 100px;
+    left: 400px;
+
 }
+.listas_cont{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.titulos_listas{
+    display: flex;
+    position: relative;
+    left: 500px;
+    padding-right: 80px;
+
+}
+
+footer{
+    position: relative;
+    bottom: -80px;
+}
+
+  
